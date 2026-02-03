@@ -11,7 +11,9 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    testImplementation("org.amshove.kluent:kluent:1.73")
 }
+
 
 tasks.test {
     useJUnitPlatform()
