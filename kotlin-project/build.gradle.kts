@@ -10,6 +10,9 @@ repositories {
 }
 
 dependencies {
+    // Source: https://mvnrepository.com/artifact/org.jetbrains.kotlin/kotlin-reflect
+    runtimeOnly("org.jetbrains.kotlin:kotlin-reflect:2.3.10")
+
     testImplementation(kotlin("test"))
     testImplementation("org.amshove.kluent:kluent:1.73")
 }
