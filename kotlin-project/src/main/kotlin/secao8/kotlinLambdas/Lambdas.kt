@@ -1,4 +1,5 @@
-package br.com.moisesdias.secao8.KotlinLambdas
+package br.com.moisesdias.secao8.kotlinLambdas
+
 
 fun main() {
     val students = getStudents()

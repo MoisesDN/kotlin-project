@@ -1,4 +1,4 @@
-package br.com.moisesdias.secao8.KotlinLambdas
+package br.com.moisesdias.secao8.kotlinLambdas
 
 data class Student(val name: String, val age: Int)
 
